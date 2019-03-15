@@ -1,0 +1,14 @@
+<div id="movie">
+  <h2>{{title}}</h2>
+
+  <div id="likes">
+      <div>
+        <p>{{likes}}</p>
+        <button (click)="onAddUpVote()">Like</button>
+      </div>
+      <div>
+          <p>{{dislikes}}</p>
+          <button (click)="onAddDownVote()">Dislike</button>
+        </div>
+    </div>
+</div>

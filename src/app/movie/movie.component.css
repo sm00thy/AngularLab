@@ -1,0 +1,9 @@
+#movie {
+    float: left;
+    width: 200px;
+    background: beige;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+

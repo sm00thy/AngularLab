@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lab1';
+  movies: string[] = [
+    'Star Trek',
+    'Shrek',
+    'Silent Hill',
+    'A star is born',
+    'Green Book'
+  ];
+
+
+
 }
